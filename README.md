@@ -1,10 +1,10 @@
-**Página de Estudos para o Concurso Público IFS 2024**
+**Página de Estudos para o Concurso Público TSE 2024**
 
 ---
 
-**Conteúdo IFS 2024**
+**Conteúdo TSE 2024**
 
-Esta página foi criada para fornecer recursos de estudo para o Concurso Público para Professor de Ensino Básico, Técnico e Tecnológico do IFS 2024. Aqui você encontrará materiais relevantes para se preparar adequadamente para o processo seletivo.
+Esta página foi criada para fornecer recursos de estudo para o Concurso Público para CONCURSO PÚBLICO NACIONAL UNIFICADO DA JUSTIÇA ELEITORAL - 2024. Aqui você encontrará materiais relevantes para se preparar adequadamente para o processo seletivo.
 
 ---
 
@@ -12,23 +12,15 @@ Esta página foi criada para fornecer recursos de estudo para o Concurso Públic
 
 1. **Edital Oficial e Anexos:**
    - Acesse o edital oficial e seus anexos para obter informações detalhadas sobre o concurso.
-   - [Clique aqui para acessar o edital](https://sistemas.institutoverbena.ufg.br/2024/concurso-ifs-docente/)
+   - [Clique aqui para acessar o edital](https://www.in.gov.br/en/web/dou/-/edital-n-1-cpnuje-de-27-de-maio-de-2024-562654616)
 
 2. **Legislação:**
    - Encontre informações sobre legislação pertinente ao concurso.
-   - [Clique aqui para acessar a legislação](https://lenosilvestre.github.io/IFS/legislacao.html)
+   - [Clique aqui para acessar a legislação](https://lenosilvestre.github.io/TSE/legislacao.html)
 
-3. **Específicos de Biologia:**
-   - Estude os tópicos específicos de Biologia para o concurso.
-   - [Clique aqui para acessar os materiais de Biologia](https://lenosilvestre.github.io/IFS/biologia.html)
-
-4. **Específicos de Informática:**
+3. **Específicos de Informática:**
    - Aprofunde-se nos conteúdos específicos de Informática exigidos no concurso.
-   - [Clique aqui para acessar os materiais de Informática](https://lenosilvestre.github.io/IFS/informatica.html)
-
-5. **Específicos de Letras Português:**
-   - Explore os recursos relacionados aos conteúdos específicos de Letras Português.
-   - [Clique aqui para acessar os materiais de Letras Português](https://lenosilvestre.github.io/IFS/letras.html)
+   - [Clique aqui para acessar os materiais de Informática](https://lenosilvestre.github.io/TSE/informatica.html)
 
 ---
 
