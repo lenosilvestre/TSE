@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conhecimentos Básicos</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+</head>
+
+<body>
+    <div id="progressbar">
+        <div id="progress">
+            <div id="progress-text">0%</div>
+        </div>
+    </div>
+
+    <div id="container">
+
+        <ul>
+            <li class="btinicio">
+                <img src="img/casa.png" alt="início" width="30" height="30">
+                <h3><a href="index.html"> Início </a></h3>
+            </li>
+        </ul>
+        <div id="conteudo">
+            <h1>Conhecimentos Básicos</h1>
+
+            <h2>Língua Portuguesa</h2>
+            <ul>
+                <li><input type="checkbox" id="lp01" onclick="updateProgressBar('lp01')">
+                    1. <b>Compreensão e interpretação de textos de gêneros variados</b>
+                </li>
+                <li><input type="checkbox" id="lp02" onclick="updateProgressBar('lp02')">
+                    2. <b>Reconhecimento de tipos e gêneros textuais</b>
+                </li>
+                <li><input type="checkbox" id="lp03" onclick="updateProgressBar('lp03')">
+                    3. <b>Domínio da ortografia oficial</b>
+                </li>
+                <li><input type="checkbox" id="lp04" onclick="updateProgressBar('lp04')">
+                    4. <b>Domínio dos mecanismos de coesão textual</b>
+                </li>
+                <ul>
+                    <li><input type="checkbox" id="lp04-1" onclick="updateProgressBar('lp04-1')">
+                        4.1. Emprego de elementos de referenciação, substituição e repetição, de conectores e de outros
+                        elementos de sequenciação textual
+                    </li>
+                    <li><input type="checkbox" id="lp04-2" onclick="updateProgressBar('lp04-2')">
+                        4.2. Emprego de tempos e modos verbais
+                    </li>
+                </ul>
+                <li><input type="checkbox" id="lp05" onclick="updateProgressBar('lp05')">
+                    5. <b>Domínio da estrutura morfossintática do período</b>
+                </li>
+                <ul>
+                    <li><input type="checkbox" id="lp05-1" onclick="updateProgressBar('lp05-1')">
+                        5.1. Emprego das classes de palavras
+                    </li>
+                    <li><input type="checkbox" id="lp05-2" onclick="updateProgressBar('lp05-2')">
+                        5.2. Relações de coordenação entre orações e entre termos da oração
+                    </li>
+                    <li><input type="checkbox" id="lp05-3" onclick="updateProgressBar('lp05-3')">
+                        5.3. Relações de subordinação entre orações e entre termos da oração
+                    </li>
+                    <li><input type="checkbox" id="lp05-4" onclick="updateProgressBar('lp05-4')">
+                        5.4. Emprego dos sinais de pontuação
+                    </li>
+                    <li><input type="checkbox" id="lp05-5" onclick="updateProgressBar('lp05-5')">
+                        5.5. Concordância verbal e nominal
+                    </li>
+                    <li><input type="checkbox" id="lp05-6" onclick="updateProgressBar('lp05-6')">
+                        5.6. Regência verbal e nominal
+                    </li>
+                    <li><input type="checkbox" id="lp05-7" onclick="updateProgressBar('lp05-7')">
+                        5.7. Emprego do sinal indicativo de crase
+                    </li>
+                    <li><input type="checkbox" id="lp05-8" onclick="updateProgressBar('lp05-8')">
+                        5.8. Colocação dos pronomes átonos
+                    </li>
+                </ul>
+                <li><input type="checkbox" id="lp06" onclick="updateProgressBar('lp06')">
+                    6. <b>Reescrita de frases e parágrafos do texto</b>
+                </li>
+                <ul>
+                    <li><input type="checkbox" id="lp06-1" onclick="updateProgressBar('lp06-1')">
+                        6.1. Significação das palavras
+                    </li>
+                    <li><input type="checkbox" id="lp06-2" onclick="updateProgressBar('lp06-2')">
+                        6.2. Substituição de palavras ou de trechos de texto
+                    </li>
+                    <li><input type="checkbox" id="lp06-3" onclick="updateProgressBar('lp06-3')">
+                        6.3. Reorganização da estrutura de orações e de períodos do texto
+                    </li>
+                    <li><input type="checkbox" id="lp06-4" onclick="updateProgressBar('lp06-4')">
+                        6.4. Reescrita de textos de diferentes gêneros e níveis de formalidade
+                    </li>
+                </ul>
+            </ul>
+
+            <h2>Noções de Direito Administrativo</h2>
+            <ul>
+                <li><input type="checkbox" id="da01" onclick="updateProgressBar('da01')">
+                    1. <b>Noções de organização administrativa</b>
+                </li>
+                <ul>
+                    <li><input type="checkbox" id="da01-1" onclick="updateProgressBar('da01-1')">
+                        1.1. Centralização, descentralização, concentração e desconcentração
+                    </li>
+                    <li><input type="checkbox" id="da01-2" onclick="updateProgressBar('da01-2')">
+                        1.2. Administração direta e indireta
+                    </li>
+                    <li><input type="checkbox" id="da01-3" onclick="updateProgressBar('da01-3')">
+                        1.3. Autarquias, fundações, empresas públicas e sociedades de economia mista
+                    </li>
+                </ul>
+                <li><input type="checkbox" id="da02" onclick="updateProgressBar('da02')">
+                    2. <b>Ato administrativo</b>
+                </li>
+                <ul>
+                    <li><input type="checkbox" id="da02-1" onclick="updateProgressBar('da02-1')">
+                        2.1. Conceito, requisitos, atributos, classificação e espécies
+                    </li>
+                </ul>
+                <li><input type="checkbox" id="da03" onclick="updateProgressBar('da03')">
+                    3. <b>Agentes públicos</b>
+                </li>
+                <ul>
+                    <li><input type="checkbox" id="da03-1" onclick="updateProgressBar('da03-1')">
+                        3.1. Legislação pertinente
+                    </li>
+                    <ul>
+                        <li><input type="checkbox" id="da03-1-1" onclick="updateProgressBar('da03-1-1')">
+                            3.1.1. Disposições constitucionais aplicáveis
+                        </li>
+                    </ul>
+                    <li><input type="checkbox" id="da03-2" onclick="updateProgressBar('da03-2')">
+                        3.2. Disposições doutrinárias
+                    </li>
+                    <ul>
+                        <li><input type="checkbox" id="da03-2-1" onclick="updateProgressBar('da03-2-1')">
+                            3.2.1. Conceito
+                        </li>
+                        <li><input type="checkbox" id="da03-2-2" onclick="updateProgressBar('da03-2-2')">
+                            3.2.2. Espécies
+                        </li>
+                        <li><input type="checkbox" id="da03-2-3" onclick="updateProgressBar('da03-2-3')">
+                            3.2.3. Cargo, emprego e função pública
+                        </li>
+                    </ul>
+                </ul>
+                <li><input type="checkbox" id="da04" onclick="updateProgressBar('da04')">
+                    4. <b>Poderes administrativos</b>
+                </li>
+                <ul>
+                    <li><input type="checkbox" id="da04-1" onclick="updateProgressBar('da04-1')">
+                        4.1. Hierárquico, disciplinar, regulamentar e de polícia
+                    </li>
+                    <li><input type="checkbox" id="da04-2" onclick="updateProgressBar('da04-2')">
+                        4.2. Uso e abuso do poder
+                    </li>
+                </ul>
+                <li><input type="checkbox" id="da05" onclick="updateProgressBar('da05')">
+                    5. <b>Licitação</b>
+                </li>
+                <ul>
+                    <li><input type="checkbox" id="da05-1" onclick="updateProgressBar('da05-1')">
+                        5.1. Princípios
+                    </li>
+                    <li><input type="checkbox" id="da05-2" onclick="updateProgressBar('da05-2')">
+                        5.2. Contratação direta: dispensa e inexigibilidade
+                    </li>
+                    <li><input type="checkbox" id="da05-3" onclick="updateProgressBar('da05-3')">
+                        5.3. Modalidades
+                    </li>
+                    <li><input type="checkbox" id="da05-4" onclick="updateProgressBar('da05-4')">
+                        5.4. Tipos
+                    </li>
+                    <li><input type="checkbox" id="da05-5" onclick="updateProgressBar('da05-5')">
+                        5.5. Procedimento
+                    </li>
+                </ul>
+                <li><input type="checkbox" id="da06" onclick="updateProgressBar('da06')">
+                    6. <b>Controle da administração pública</b>
+                </li>
+                <ul>
+                    <li><input type="checkbox" id="da06-1" onclick="updateProgressBar('da06-1')">
+                        6.1. Controle exercido pela administração pública
+                    </li>
+                    <li><input type="checkbox" id="da06-2" onclick="updateProgressBar('da06-2')">
+                        6.2. Controle judicial
+                    </li>
+                    <li><input type="checkbox" id="da06-3" onclick="updateProgressBar('da06-3')">
+                        6.3. Controle legislativo
+                    </li>
+                </ul>
+                <li><input type="checkbox" id="da07" onclick="updateProgressBar('da07')">
+                    7. <b>Responsabilidade civil do Estado</b>
+                </li>
+                <ul>
+                    <li><input type="checkbox" id="da07-1" onclick="updateProgressBar('da07-1')">
+                        7.1. Responsabilidade civil do Estado no direito brasileiro
+                    </li>
+                    <ul>
+                        <li><input type="checkbox" id="da07-1-1" onclick="updateProgressBar('da07-1-1')">
+                            7.1.1. Responsabilidade por ato comissivo do Estado
+                        </li>
+                        <li><input type="checkbox" id="da07-1-2" onclick="updateProgressBar('da07-1-2')">
+                            7.1.2. Responsabilidade por omissão do Estado
+                        </li>
+                    </ul>
+                    <li><input type="checkbox" id="da07-2" onclick="updateProgressBar('da07-2')">
+                        7.2. Requisitos para a demonstração da responsabilidade do Estado
+                    </li>
+                    <li><input type="checkbox" id="da07-3" onclick="updateProgressBar('da07-3')">
+                        7.3. Causas excludentes e atenuantes da responsabilidade do Estado
+                    </li>
+                </ul>
+            </ul>
+        </div>
+
+
+
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Recuperar os estados marcados dos checkboxes armazenados no localStorage
+            var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(function (checkbox) {
+                var checkboxId = checkbox.id;
+                var isChecked = localStorage.getItem(checkboxId) === "true";
+                checkbox.checked = isChecked;
+            });
+
+            // Atualizar a barra de progresso inicialmente
+            updateProgressBar();
+        });
+
+        function updateProgressBar(checkboxId) {
+            var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            var checkedCheckboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+            var progress = (checkedCheckboxes.length / checkboxes.length) * 100;
+            document.getElementById('progress').style.width = progress + '%';
+            document.getElementById('progress-text').textContent = progress.toFixed(2) + '%';
+
+            // Armazenar o estado marcado no localStorage
+            if (checkboxId) {
+                var checkbox = document.getElementById(checkboxId);
+                localStorage.setItem(checkboxId, checkbox.checked);
+            }
+        }
+    </script>
+</body>
+
+</html>

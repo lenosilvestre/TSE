@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteúdo IFS 2024</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+</head>
+
+<body>
+    <div id="progressbar">
+        <div id="progress">
+            <div id="progress-text">0%</div>
+        </div>
+    </div>
+
+    <ul>
+        <li class="btinicio">
+            <img src="img/casa.png" alt="início" width="30" height="30">
+            <h3><a href="index.html"> Início </a></h3>
+        </li>
+    </ul>
+
+
+    <div id="conteudo">
+
+        <h1>Programação de Sistemas</h1>
+        <ul>
+            <li><input type="checkbox" id="topico01" onclick="updateProgressBar('topico01')">
+                1. <b>Lógica de programação</b>
+            </li>
+            <ul>
+                <li><input type="checkbox" id="topico01-1" onclick="updateProgressBar('topico01-1')">
+                    1.1. Algoritmos, depuração
+                </li>
+            </ul>
+            <li><input type="checkbox" id="topico02" onclick="updateProgressBar('topico02')">
+                2. <b>Estrutura de dados e organização de arquivos</b>
+            </li>
+            <li><input type="checkbox" id="topico03" onclick="updateProgressBar('topico03')">
+                3. <b>Arquitetura cliente-servidor multicamadas</b>
+            </li>
+            <li><input type="checkbox" id="topico04" onclick="updateProgressBar('topico04')">
+                4. <b>Noções sobre desenvolvimento e manutenção de sistemas e aplicações</b>
+            </li>
+            <li><input type="checkbox" id="topico05" onclick="updateProgressBar('topico05')">
+                5. <b>Paradigma de orientação a objetos</b>
+            </li>
+            <ul>
+                <li><input type="checkbox" id="topico05-1" onclick="updateProgressBar('topico05-1')">
+                    5.1. Conceitos e aplicações
+                </li>
+            </ul>
+            <li><input type="checkbox" id="topico06" onclick="updateProgressBar('topico06')">
+                6. <b>Banco de dados</b>
+            </li>
+            <ul>
+                <li><input type="checkbox" id="topico06-1" onclick="updateProgressBar('topico06-1')">
+                    6.1. Conceitos básicos, características dos bancos relacionais e linguagem SQL
+                </li>
+            </ul>
+            <li><input type="checkbox" id="topico07" onclick="updateProgressBar('topico07')">
+                7. <b>Modelagem de dados</b>
+            </li>
+            <ul>
+                <li><input type="checkbox" id="topico07-1" onclick="updateProgressBar('topico07-1')">
+                    7.1. Diagramas entidade-relacionamento e mapeamento para modelo relacional
+                </li>
+            </ul>
+            <li><input type="checkbox" id="topico08" onclick="updateProgressBar('topico08')">
+                8. <b>Noções sobre metodologias de análise, projeto e desenvolvimento de sistemas</b>
+            </li>
+            <li><input type="checkbox" id="topico09" onclick="updateProgressBar('topico09')">
+                9. <b>Tecnologias web</b>
+            </li>
+            <ul>
+                <li><input type="checkbox" id="topico09-1" onclick="updateProgressBar('topico09-1')">
+                    9.1. Webservices, AJAX, XML, DHTML, CSS
+                </li>
+            </ul>
+            <li><input type="checkbox" id="topico10" onclick="updateProgressBar('topico10')">
+                10. <b>Noções sobre linguagens e tecnologias de programação</b>
+            </li>
+            <ul>
+                <li><input type="checkbox" id="topico10-1" onclick="updateProgressBar('topico10-1')">
+                    10.1. Java, Mobile nas plataformas Android, HTML, CSS, Javascript, DHTML, XML/XSD, JBossSeam, JPA,
+                    JSF, facelets, JNDI, JDBC, sites responsivos
+                </li>
+            </ul>
+            <li><input type="checkbox" id="topico11" onclick="updateProgressBar('topico11')">
+                11. <b>Interface de interação com usuário</b>
+            </li>
+            <ul>
+                <li><input type="checkbox" id="topico11-1" onclick="updateProgressBar('topico11-1')">
+                    11.1. Interface gráfica, ergonomia e usabilidade
+                </li>
+            </ul>
+            <li><input type="checkbox" id="topico12" onclick="updateProgressBar('topico12')">
+                12. <b>Redes de computadores</b>
+            </li>
+            <ul>
+                <li><input type="checkbox" id="topico12-1" onclick="updateProgressBar('topico12-1')">
+                    12.1. Fundamentos de comunicação de dados
+                </li>
+                <li><input type="checkbox" id="topico12-2" onclick="updateProgressBar('topico12-2')">
+                    12.2. Estações e servidores
+                </li>
+                <li><input type="checkbox" id="topico12-3" onclick="updateProgressBar('topico12-3')">
+                    12.3. Tecnologias de redes locais e de longa distância
+                </li>
+                <li><input type="checkbox" id="topico12-4" onclick="updateProgressBar('topico12-4')">
+                    12.4. Arquitetura TCP/IP
+                </li>
+                <li><input type="checkbox" id="topico12-5" onclick="updateProgressBar('topico12-5')">
+                    12.5. Arquitetura cliente-servidor
+                </li>
+                <li><input type="checkbox" id="topico12-6" onclick="updateProgressBar('topico12-6')">
+                    12.6. Conceitos de Internet e intranet
+                </li>
+            </ul>
+        </ul>
+
+        <h1>Bancos de Dados</h1>
+        <ul>
+            <li><input type="checkbox" id="bd01" onclick="updateProgressBar('bd01')">
+                1. <b>Banco de dados</b>
+            </li>
+            <ul>
+                <li><input type="checkbox" id="bd01-1" onclick="updateProgressBar('bd01-1')">
+                    1.1. Conceitos básicos
+                </li>
+                <li><input type="checkbox" id="bd01-2" onclick="updateProgressBar('bd01-2')">
+                    1.2. Arquitetura
+                </li>
+                <li><input type="checkbox" id="bd01-3" onclick="updateProgressBar('bd01-3')">
+                    1.3. Estrutura de dados
+                </li>
+                <li><input type="checkbox" id="bd01-4" onclick="updateProgressBar('bd01-4')">
+                    1.4. Modelagem e normalização de dados
+                </li>
+                <li><input type="checkbox" id="bd01-5" onclick="updateProgressBar('bd01-5')">
+                    1.5. Noções de administração de dados e de banco de dados
+                </li>
+                <li><input type="checkbox" id="bd01-6" onclick="updateProgressBar('bd01-6')">
+                    1.6. SQL (ANSI)
+                </li>
+                <li><input type="checkbox" id="bd01-7" onclick="updateProgressBar('bd01-7')">
+                    1.7. Oracle 21C, MySql, ADABAS e MS-SQLSERVER 2019
+                </li>
+                <li><input type="checkbox" id="bd01-8" onclick="updateProgressBar('bd01-8')">
+                    1.8. Arquitetura e políticas de armazenamento de dados
+                </li>
+                <li><input type="checkbox" id="bd01-9" onclick="updateProgressBar('bd01-9')">
+                    1.9. Engenharia de dados - ingestão e armazenamento de grande quantidade de dados (Big Data), SQLite
+                </li>
+            </ul>
+            <li><input type="checkbox" id="bd02" onclick="updateProgressBar('bd02')">
+                2. Modelagem de dados (conceitual, lógica e física)
+            </li>
+            <li><input type="checkbox" id="bd03" onclick="updateProgressBar('bd03')">
+                3. Abordagem relacional
+            </li>
+            <li><input type="checkbox" id="bd04" onclick="updateProgressBar('bd04')">
+                4. Normalização das estruturas de dados
+            </li>
+            <li><input type="checkbox" id="bd05" onclick="updateProgressBar('bd05')">
+                5. Integridade referencial
+            </li>
+            <li><input type="checkbox" id="bd06" onclick="updateProgressBar('bd06')">
+                6. Metadados
+            </li>
+            <li><input type="checkbox" id="bd07" onclick="updateProgressBar('bd07')">
+                7. Modelagem dimensional
+            </li>
+            <li><input type="checkbox" id="bd08" onclick="updateProgressBar('bd08')">
+                8. Linguagem de consulta estruturada (SQL)
+            </li>
+            <li><input type="checkbox" id="bd09" onclick="updateProgressBar('bd09')">
+                9. Linguagem de definição de dados (DDL)
+            </li>
+            <li><input type="checkbox" id="bd10" onclick="updateProgressBar('bd10')">
+                10. Linguagem de manipulação de dados (DML)
+            </li>
+            <li><input type="checkbox" id="bd11" onclick="updateProgressBar('bd11')">
+                11. SGBD
+            </li>
+            <li><input type="checkbox" id="bd12" onclick="updateProgressBar('bd12')">
+                12. Propriedades de banco de dados
+            </li>
+            <li><input type="checkbox" id="bd13" onclick="updateProgressBar('bd13')">
+                13. Banco de dados NoSQL
+            </li>
+            <li><input type="checkbox" id="bd14" onclick="updateProgressBar('bd14')">
+                14. Banco de dados em memória
+            </li>
+            <li><input type="checkbox" id="bd15" onclick="updateProgressBar('bd15')">
+                15. Data lakes e soluções para big data
+            </li>
+            <li><input type="checkbox" id="bd16" onclick="updateProgressBar('bd16')">
+                16. Dados Estruturados e não Estruturados
+            </li>
+            <li><input type="checkbox" id="bd17" onclick="updateProgressBar('bd17')">
+                17. Avaliação de modelos de dados
+            </li>
+            <li><input type="checkbox" id="bd18" onclick="updateProgressBar('bd18')">
+                18. Técnicas de Integração e Ingestão de Dados (ETL/ELT, Transferência de Arquivos e Integração via Base
+                de Dados)
+            </li>
+            <li><input type="checkbox" id="bd19" onclick="updateProgressBar('bd19')">
+                19. Conceitos de Inteligência Artificial, Análise de Dados e Big Data
+            </li>
+            <ul>
+                <li><input type="checkbox" id="bd19-1" onclick="updateProgressBar('bd19-1')">
+                    19.1. Noções para Otimização de Performance em Larga Escala
+                </li>
+            </ul>
+        </ul>
+
+        <h1>Língua Inglesa</h1>
+        <ul>
+            <li><input type="checkbox" id="ing01" onclick="updateProgressBar('ing01')">
+                1. <b>Compreensão de textos variados</b>
+            </li>
+            <ul>
+                <li><input type="checkbox" id="ing01-1" onclick="updateProgressBar('ing01-1')">
+                    1.1. Domínio do vocabulário e da estrutura da língua
+                </li>
+                <li><input type="checkbox" id="ing01-2" onclick="updateProgressBar('ing01-2')">
+                    1.2. Ideias principais e secundárias, explícitas e implícitas
+                </li>
+                <li><input type="checkbox" id="ing01-3" onclick="updateProgressBar('ing01-3')">
+                    1.3. Relações intratextuais e intertextuais
+                </li>
+            </ul>
+            <li><input type="checkbox" id="ing02" onclick="updateProgressBar('ing02')">
+                2. <b>Itens gramaticais relevantes para compreensão de conteúdos semânticos</b>
+            </li>
+            <li><input type="checkbox" id="ing03" onclick="updateProgressBar('ing03')">
+                3. <b>Conhecimento e uso das formas contemporâneas da linguagem inglesa</b>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Recuperar os estados marcados dos checkboxes armazenados no localStorage
+            var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(function (checkbox) {
+                var checkboxId = checkbox.id;
+                var isChecked = localStorage.getItem(checkboxId) === "true";
+                checkbox.checked = isChecked;
+            });
+
+            // Atualizar a barra de progresso inicialmente
+            updateProgressBar();
+        });
+
+        function updateProgressBar(checkboxId) {
+            var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            var checkedCheckboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+            var progress = (checkedCheckboxes.length / checkboxes.length) * 100;
+            document.getElementById('progress').style.width = progress + '%';
+            document.getElementById('progress-text').textContent = progress.toFixed(2) + '%';
+
+
+            // Armazenar o estado marcado no localStorage
+            if (checkboxId) {
+                var checkbox = document.getElementById(checkboxId);
+                localStorage.setItem(checkboxId, checkbox.checked);
+            }
+        }
+    </script>
+</body>
+
+</html>
